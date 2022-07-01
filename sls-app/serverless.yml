@@ -1,0 +1,19 @@
+service: sls-app
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+plugins:
+  - serverless-offline
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: /hello
+          method: get
+          cors: true

@@ -1,0 +1,16 @@
+{
+  "name": "sls-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^3.19.0",
+    "serverless-offline": "^8.8.0"
+  }
+}
